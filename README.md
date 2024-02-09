@@ -11,7 +11,7 @@ This project includes an Angular application as the frontend and a .NET 6 Core A
 
 2. **Navigate to the API Project**:
     - Open a terminal or command prompt.
-    - Navigate to the directory containing the .NET Core API project (`WebAPI` or similar).
+    - Navigate to the directory containing the .NET Core API project (`WebAPI`).
 
 3. **Run the API**:
     - In the terminal, execute the following command to run the API:
