@@ -1,0 +1,200 @@
+## .NET Core ##
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Tye
+.tye/
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.tmp
+*.TMP
+*.cache
+*.csproj.user
+*.vbproj.user
+*.swp
+*.*swp
+*.dll.config
+*.exe.config
+*.json.user
+*.pidb
+*.userprefs
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Local History for Visual Studio
+/.history/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+## Angular ##
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/ngcc-lock-file
+
+# production
+/dist
+
+# misc
+/.sass-cache
+/connect.lock
+/hsperfdata_*
+/idea.lock
+/session.lock
+/versionvault.lock
+
+# environment variables
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# misc
+/.DS_Store
+/.idea
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# angular files
+/angular.json
+/.angular/cache
+
+# IDE - VSCode
+.vscode/*
+
+# IDE - Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.njsproj
+*.sln.docstates
+
+# Rider
+.idea/
+
+# User-specific files
+*.rsuser
+*.user
+*.userosscache
+*.suo
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

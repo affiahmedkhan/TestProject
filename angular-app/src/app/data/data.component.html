@@ -1,0 +1,29 @@
+<div>
+  <div class="add-city-input">
+    <mat-form-field appearance="fill">
+      <mat-label>Enter a new city name</mat-label>
+      <input matInput [(ngModel)]="cityName" />
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="addCity()">
+      Add City
+    </button>
+  </div>
+  <mat-toolbar color="primary">
+    <span>List of UAE Citiesss</span>
+  </mat-toolbar>
+
+  <mat-table [dataSource]="items" class="mat-elevation-z8">
+    <ng-container matColumnDef="id">
+      <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
+      <mat-cell *matCellDef="let item"> {{ item.id }} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef> City Name </mat-header-cell>
+      <mat-cell *matCellDef="let item"> {{ item.name }} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns"></mat-row>
+  </mat-table>
+</div>
