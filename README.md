@@ -18,7 +18,8 @@ This project includes an Angular application as the frontend and a .NET 6 Core A
       ```sh
       dotnet run
       ```
-    - The API should start, and you'll see a message indicating it's listening on a local port (usually `https://localhost:5001` and `http://localhost:5000`).
+    - `NOTE:` The API should start, listening on a local port `https://localhost:7206/`.
+    -  Otherwise the API result may be not shown
 
 ## Running the Angular Application
 
